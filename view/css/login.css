@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#divLogin{
+    margin-top: 10%;
+    width: 40%;
+}
+
+#parallaxLog{
+    margin-top: 4%; 
+    background-image: url('../img/back1.jpg');
+	background-attachment: fixed;
+	width: 100%;
+	padding: 5%;
+    height: 600px;
+}
