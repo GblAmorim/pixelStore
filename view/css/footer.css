@@ -1,0 +1,19 @@
+@charset "utf-8";
+#footer{
+    height: 16%;
+    background-image: url('../img/back2.1.jpg');
+}
+
+#divFooter{
+    margin-top: -0.1%;
+    margin-left: 43%;
+    padding-top: 0.01%;
+}
+
+.copyright{
+    margin-left: -4%;
+}
+
+#copy, #msg, #logoFooter{
+    color: rgb(177, 177, 177);
+}

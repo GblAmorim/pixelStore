@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body, html {
+	width: 100%;
+	height: 90%;
+
+}
+
+#nav{
+    background-color: rgb(0, 204, 204);
+}
+
+#fluidCont, #btEsquerda, #btDireita{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15pt;
+    margin-bottom: -0.5%;
+}
+
+#logoPixel{
+    height: 220%;
+}
+
+#btEsquerda, #btDireita{
+    margin-top: 1.3%;
+}
+
+#btHome, #btIpr, #btCpr, #btCad{
+     color: rgb(39, 37, 37) !important;
+
+}
+
+#btLogin{
+    margin-left: -25%;
+    color: black !important;
+}
