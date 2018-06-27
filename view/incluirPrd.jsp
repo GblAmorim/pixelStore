@@ -52,12 +52,13 @@
                     <li>
                         <a id="btCpr" href="consultarPrd.jsp">Consultar</a>
                     </li>
-                    <li>
-                        <a id="btCad" href="cadastro.jsp">Cadastre-se</a>
-                    </li>
                 </ul>
                 <!-- BOTÕES DO MENU NO CANTO DIREITO -->
                 <ul id="btDireita" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="btCad" href="cadastro.jsp">
+                            <span class="glyphicon glyphicon-user"></span>Cadastre-se</a>
+                    </li>
                     <li>
                         <a id="btLogin" href="login.jsp">
                             <span class="glyphicon glyphicon-log-in"></span> Login</a>
@@ -94,9 +95,35 @@
                     <label id="lblDesc" class="inputInc" for="txtDesc">Descrição:</label>
                     <input type="text" class="form-control" id="txtDesc" placeholder="Jogo FPS (first person shooter - atirador em primeira pessoa) para PS4 e XBOX ONE" name="Descrição">
                 </div>
+
+                <!--CAMPO QUANTIDADE
+                <div id="cQtd" class="form-group">
+                    <label id="lblQtd" class="inputInc" for="txtQtd">Quantidade:</label>
+                    <input type="text" class="form-control" id="txtQtd" placeholder="ex: 10"
+                        name="Quantidade">
+                </div>-->
+
+                <!--CAMPO PLATAFORMA DISPONÍVEL-->
+                <div id="cPlatDisp" class="form-group">
+                    <label id="lblPlatDisp" class="inputInc">Plataformas Disponíveis:</label>
+                    <br>
+                    <label class="checkbox-inline checkPlat">
+                    <input type="checkbox" value="ps2">PlayStation 2</label>
+                    <label class="checkbox-inline checkPlat">
+                    <input type="checkbox" value="ps3">PlayStation 3</label>
+                    <label class="checkbox-inline checkPlat">
+                    <input type="checkbox" value="ps4">PlayStation 4</label>
+                    <br>
+                    <label class="checkbox-inline checkPlat">
+                    <input type="checkbox" value="xb3">XBOX 360</label>
+                    <label class="checkbox-inline checkPlat" id="xbo">
+                    <input type="checkbox" value="xbo">XBOX ONE</label>
+                    <label class="checkbox-inline checkPlat" id="nsw">
+                    <input type="checkbox" value="nsw">Nintendo Swich</label>
+                </div>
     
                 <!--BOTÃO PARA CADASTAR-->
-                <input type="submit" id="btCad" name="btCad" class="btn btn-success" value="Cadastrar">
+                <input type="submit" id="btIncluir" name="btIncluir" class="btn btn-success" value="Cadastrar">
     
             </form>
             <!-- formLogin -->

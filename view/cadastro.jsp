@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>PS - Consultar Jogo</title>
+    <title>PS - Cadstro</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="js/footer.js"></script>
 
-    <link rel="stylesheet" href="css/consultarPrd.css">
-    <script src="js/consultarPrd.js"></script>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="js/cadastro.js"></script>
 </head>
 
 <body>
@@ -57,7 +57,8 @@
                 <ul id="btDireita" class="nav navbar-nav navbar-right">
                     <li>
                         <a id="btCad" href="cadastro.jsp">
-                            <span class="glyphicon glyphicon-user"></span>Cadastre-se</a>
+                            <span class="glyphicon glyphicon-user">
+                            </span>Cadastre-se</a>
                     </li>
                     <li>
                         <a id="btLogin" href="login.jsp">
@@ -69,7 +70,43 @@
         <!-- /Nav -->
     </header>
 
-
+    <div class="parallax" id="parallaxCad">
+        <div id="divCad" class="container">
+            <form id="formCadPrd" method "post" action="../controller/incluirPrd.jsp" name="formCadPrd">
+                <!--CAMPO NOME-->
+                <div id="cNome" class="form-group">
+                    <label id="lblTitulo" class="inputInc" for="txtNome">Nome:</label>
+                    <input type="text" class="form-control" id="txtNome" placeholder="ex: Gabriel" name="Nome">
+                </div>
+            
+                <!--CAMPO CÓDIGO DO FUNCIONÁRIO-->
+                <div id="cCodFunc" class="form-group">
+                    <label id="lblCodFunc" class="inputInc" for="txtCodFunc">Código de Funcionário:</label>
+                    <input type="text" class="form-control" id="txtCodFunc" placeholder="código de 4 digitos fornecido pelo gerente" name="CodFunc">
+                </div>
+            
+                <!--CAMPO SENHA-->
+                <div id="cSenha" class="form-group">
+                    <label id="lblSenha" class="inputInc" for="txtSenha">Senha:</label>
+                    <input type="password" class="form-control" id="txtSenha" placeholder="******" name="Senha">
+                </div>
+            
+                <!--CAMPO CONFIRMAR SENHA-->
+                <div id="cConfSenha" class="form-group">
+                    <label id="lblConfSenha" class="inputInc" for="txtConfSenha">Confirmar Senha:</label>
+                    <input type="text" class="form-control" id="txtConfSenha" placeholder="******"
+                        name="ConfSenha">
+                </div>
+            
+                <!--BOTÃO PARA CADASTAR-->
+                <input type="submit" id="btIncluir" name="btIncluir" class="btn btn-success" value="Cadastrar">
+            
+            </form>
+            <!-- formLogin -->
+        </div>
+        <!-- divLogin -->
+    </div>
+    <!-- parallaxLog -->
 
     <div id="footer">
         <div id="divFooter">

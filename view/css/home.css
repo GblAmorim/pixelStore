@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#divHome{
+    margin-top: 8%;
+    width: 40%;
+}
+
+#parallaxHome{
+    margin-top: 4%; 
+    background-image: url('../img/back5.3.jpg');
+	background-attachment: fixed;
+	width: 100%;
+	padding: 5%;
+    height: 600px;
+}
