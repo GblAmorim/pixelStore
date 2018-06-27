@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Pixel Store</title>
+    <title>PS - Incluir Jogo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="js/footer.js"></script>
 
-    <link rel="stylesheet" href="css/home.css">
-    <script src="js/home.js"></script>
+    <link rel="stylesheet" href="css/incluirPrd.css">
+    <script src="js/incluirPrd.js"></script>
 </head>
 
 <body>
@@ -73,18 +73,30 @@
             <form id="formCadPrd" method "post" action="../controller/incluirPrd.jsp" name="formCadPrd">
                 <!--CAMPO TÍTULO-->
                 <div id="cTitulo" class="form-group">
-                    <label id="lblTitulo" for="txtTitulo">Título:</label>
+                    <label id="lblTitulo" class="inputInc" for="txtTitulo">Título:</label>
                     <input type="text" class="form-control" id="txtTitulo" placeholder="ex: Call Of Duty: Black Ops 4" name="Titulo">
                 </div>
     
                 <!--CAMPO DESENVOLVEDOR-->
                 <div id="cDesenvolv" class="form-group">
-                    <label id="lblDesenvolv" for="txtDesenvolv">Senha:</label>
-                    <input type="text" class="form-control" id="txtDesenvolv" placeholder="Senha cadastrada" name="Desenvolvedor">
+                    <label id="lblDesenvolv" class="inputInc" for="txtDesenvolv">Desenvolvedor:</label>
+                    <input type="text" class="form-control" id="txtDesenvolv" placeholder="Activision" name="Desenvolvedor">
+                </div>
+
+                <!--CAMPO VALOR-->
+                <div id="cVal" class="form-group">
+                    <label id="lblVal" class="inputInc" for="txtVal">Valor:</label>
+                    <input type="text" class="form-control" id="txtVal" placeholder="R$ 200,00" name="Valor">
+                </div>
+
+                <!--CAMPO DESCRIÇÃO-->
+                <div id="cDesc" class="form-group">
+                    <label id="lblDesc" class="inputInc" for="txtDesc">Descrição:</label>
+                    <input type="text" class="form-control" id="txtDesc" placeholder="Jogo FPS (first person shooter - atirador em primeira pessoa) para PS4 e XBOX ONE" name="Descrição">
                 </div>
     
                 <!--BOTÃO PARA CADASTAR-->
-                <input type="submit" id="btLogar" name="btLogar" class="btn btn-success" value="Login">
+                <input type="submit" id="btCad" name="btCad" class="btn btn-success" value="Cadastrar">
     
             </form>
             <!-- formLogin -->

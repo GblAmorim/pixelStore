@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-#divLogin{
-    margin-top: 7%;
-    width: 40%;
+#divCadPrd{
+    margin-top: 2%;
+    width: 50%;
 }
 
-#parallaxLog{
+#parallaxCadPrd{
     margin-top: 4%; 
-    background-image: url('../img/back1.jpg');
+    background-image: url('../img/back3.jpg');
 	background-attachment: fixed;
 	width: 100%;
 	padding: 5%;
@@ -15,7 +15,7 @@
 }
 
 .inputInc{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     font-size: 18pt;
 
 }
