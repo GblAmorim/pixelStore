@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-#divLogin{
-    margin-top: 8%;
+#divCad{
+    margin-top: 1%;
     width: 40%;
 }
 
-#parallaxLog{
+#parallaxCad{
     margin-top: 4%; 
-    background-image: url('../img/back1.jpg');
+    background-image: url('../img/back4.jpg');
 	background-attachment: fixed;
 	width: 100%;
 	padding: 5%;
@@ -18,4 +18,5 @@
     color: rgb(0, 0, 0);
     font-size: 18pt;
     margin-bottom: 3%;
+
 }

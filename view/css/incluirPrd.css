@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #divCadPrd{
-    margin-top: 2%;
+    margin-top: -2.3%;
     width: 50%;
 }
 
@@ -17,5 +17,20 @@
 .inputInc{
     color: rgb(255, 254, 254);
     font-size: 18pt;
+    margin-bottom: 1.5%;
+}
 
+.checkPlat{
+    margin-right: 2%;
+    color: rgb(255, 254, 254);
+    font-size: 15pt;
+
+}
+
+#xbo{
+    margin-left: 5%;
+}
+
+#nsw{
+    margin-left: 3.7%;
 }

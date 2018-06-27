@@ -52,12 +52,13 @@
 					<li>
 						<a id="btCpr" href="consultarPrd.jsp">Consultar</a>
 					</li>
-					<li>
-						<a id="btCad" href="cadastro.jsp">Cadastre-se</a>
-					</li>
 				</ul>
 				<!-- BOTÕES DO MENU NO CANTO DIREITO -->
 				<ul id="btDireita" class="nav navbar-nav navbar-right">
+					<li>
+						<a id="btCad" href="cadastro.jsp"><span class="glyphicon glyphicon-user">
+						</span>Cadastre-se</a>
+					</li>
 					<li>
 						<a id="btLogin" href="login.jsp">
 							<span class="glyphicon glyphicon-log-in"></span> Login</a>
@@ -68,7 +69,13 @@
 		<!-- /Nav -->
 	</header>
 
-	
+	<div class="parallax" id="parallaxHome">
+		<div id="divHome" class="container">
+			
+		</div>
+		<!-- divLogin -->
+	</div>
+	<!-- parallaxLog -->
 
 	<div id="footer">
 		<div id="divFooter">

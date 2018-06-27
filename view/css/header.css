@@ -29,7 +29,11 @@ body, html {
 
 }
 
-#btLogin{
-    margin-left: -25%;
-    color: black !important;
+#btLogin, #btCad{
+    color: rgb(39, 37, 37) !important;
 }
+
+#btDireita{
+    margin-right: 2%;
+}
+
